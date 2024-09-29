@@ -38,7 +38,7 @@ try {
   $products = $stmt_select->fetchAll(PDO::FETCH_ASSOC);
 
 } catch (PDOException $e) {
-  exit($e->getMessege());
+  exit($e->getMessage());
 }
 ?>
 
